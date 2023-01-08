@@ -1,11 +1,11 @@
 
 import openai
-openai.api_key = "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"
+openai.api_key = ""
 
 import tweepy
 
 # Autentica la aplicación de Twitter utilizando las claves de acceso
-auth = tweepy.OAuth2BearerHandler("AAAAAAAAAAAAAAAAAAAAACFelAEAAAAAazOrc9K%2BbvpSZ58ggsacVWOhGRQ%3DWUB8Ow6Z2lAJKoQkuq4qLG0poqEG8jtY57O1eQu1dakU5bb7EX")
+auth = tweepy.OAuth2BearerHandler("")
 
 
 api = tweepy.API(auth)
